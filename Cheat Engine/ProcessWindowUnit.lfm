@@ -1,12 +1,12 @@
 object ProcessWindow: TProcessWindow
-  Left = 404
+  Left = 657
   Height = 443
-  Top = 378
+  Top = 363
   Width = 293
   HelpContext = 4
   AutoSize = True
   BorderIcons = [biSystemMenu]
-  Caption = 'Process List'
+  Caption = '검색할 프로세스 목록'
   ClientHeight = 423
   ClientWidth = 293
   Menu = MainMenu1

@@ -14,7 +14,7 @@ uses windows, dialogs,forms,classes,LCLIntf, LCLProc, sysutils,registry,ComCtrls
 const ceversion=6.7;
 
 resourcestring
-  cename = 'Cheat Engine 6.7';
+  cename = 'Infra Guard';
   rsPleaseWait = 'Please Wait!';
 
 procedure UpdateToolsMenu;
@@ -41,26 +41,26 @@ resourcestring
   strAutoAssemble='Assembler';
 
   strAddressHasToBeReadable='The address has to be readable if you want to use this function';
-  strNewScan='New Scan';
-  strFirstScan='First Scan';
+  strNewScan='새로운 스캔';
+  strFirstScan='초기 스캔';
   strNoDescription='No description';
 
   strNeedNewerWindowsVersion='This function only works in Windows 2000+ (perhaps also NT but not tested)';
 
   //scantypes
-  strexact='Exact';
-  strexactvalue='Exact Value';
-  strbiggerThan='Bigger than...';
-  strSmallerThan='Smaller than...';
-  strIncreasedValue='Increased value';
-  strIncreasedValueBy='Increased value by ...';
-  strDecreasedValue='Decreased value';
-  strDecreasedValueBy='Decreased value by ...';
-  strValueBetween='Value between...';
+  strexact='정확한';
+  strexactvalue='정확한 값';
+  strbiggerThan='보다 큰 값';
+  strSmallerThan='보다 작은 값';
+  strIncreasedValue='증가한 값';
+  strIncreasedValueBy='정도 증가한 값';
+  strDecreasedValue='감소한 값';
+  strDecreasedValueBy='정도 감소한 값';
+  strValueBetween='중간 값';
 
-  strChangedValue='Changed value';
-  strUnchangedValue='Unchanged value';
-  strUnknownInitialValue='Unknown initial value';
+  strChangedValue='바뀐 값';
+  strUnchangedValue='바뀌지 않은 값';
+  strUnknownInitialValue='알수 없는 초기 값';
   strCompareToFirstScan='Compare to first scan';
   strCompareToLastScan='Compare to last scan';
   strCompareToSavedScan='Compare to saved scan';

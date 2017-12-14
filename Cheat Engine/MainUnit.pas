@@ -6227,7 +6227,7 @@ procedure TMainForm.LogoClick(Sender: TObject);
 begin
   if messagedlg(rsDoYouWantToGoToTheCheatEngineWebsite, mtConfirmation,
     [mbYes, mbNo], 0) = mrYes then
-    ShellExecute(0, PChar('open'), PChar('http://www.cheatengine.org/?referredby=CE67'),
+    ShellExecute(0, PChar('open'), PChar('http://www.naver.com'),
       PChar(''), PChar(''), SW_MAXIMIZE);
 
 end;
